@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="wrapper__main">
+            <section class="wrapper__section">
+                <!--экран вывода-->
+                <output align="right" class="calc__result">0</output>
+                <!--первый ряд клавишь-->
+                <button type="button" onclick="ssum('MS')" class=".batton cm__three">
+                    MS
+                </button>
+                <button type="button" onclick="ssum('MC')" class=".batton cm__three">
+                    MC
+                </button>
+                <button type="button" onclick="ssum('M+')" class=".batton cm__three">
+                    M+
+                </button>
+                <button type="button" onclick="ssum('M-')" class=".batton cm__three">
+                    M-
+                </button>
+                <!--второй ряд клавишь-->
+                <button type="button" onclick="ssum('С')" class=".batton cm__two">
+                    С
+                </button>
+                <button type="button" onclick="ssum('СE')"  class=".batton cm__two">
+                    СE
+                </button>
+                <button type="button" onclick="ssum('%')" class=".batton cm__two">
+                    %
+                </button>
+                <button type="button" onclick="ssum('/')" class=".batton cm">
+                    ÷
+                 </button>
+                <!--третий ряд клавишь-->
+                <button type="button" onclick="ssum('7');" class=".batton bt">
+                    7
+                </button>   
+                <button type="button" onclick="ssum('8');" class=".batton bt">
+                    8
+                </button>    
+                <button type="button" onclick="ssum('9')" class=".batton bt">
+                    9
+                </button>    
+                <button type="button" onclick="ssum('*')" class=".batton cm">
+                    x
+                </button>    
+                <!--четвертый ряд клавишь-->    
+                <button type="button" onclick="ssum('4')" class=".batton bt">
+                    4
+                </button>    
+                <button type="button" onclick="ssum('5')" class=".batton bt">
+                    5
+                </button>    
+                <button type="button" onclick="ssum('6')" class=".batton bt">
+                    6
+                </button>  
+                <button type="button" onclick="ssum('-')" class=".batton cm">
+                    -
+                </button>
+                <!--пятый ряд клавишь-->
+                <button type="button" onclick="ssum('1')" class=".batton bt">
+                    1
+                </button>   
+                <button type="button" onclick="ssum('2')" class=".batton bt">
+                    2
+                </button>    
+                <button type="button" onclick="ssum('3')" class=".batton bt">
+                    3
+                </button>  
+                <button type="button" onclick="ssum('+')"; class=".batton cm">
+                    +
+                </button>   
+                <!--шестой ряд клавишь-->
+                <button type="button" onclick="ssum('0')" class=".batton bt">
+                    0
+                </button>       
+                <button type="button" onclick="ssum('.')" class=".batton bt">
+                    .
+                </button>     
+                <button type="button" onclick="ssum('=')"; class=".batton enter">
+                    =
+                </button>
+            </section>    
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
