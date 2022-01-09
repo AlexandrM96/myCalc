@@ -1,9 +1,9 @@
-let calcTwo = document.querySelector('.calc__Two');
 let calcResult = document.querySelector('.calc__result');
-let page = document.querySelector('.wrapper__section');
-let numberButton = document.querySelector('.bt');
-let comandButton = document.querySelector('.cm');
-let enterButton = document.querySelector('.ravno');
+// let calcTwo = document.querySelector('.calc__Two');
+// let page = document.querySelector('.wrapper__section');
+// let numberButton = document.querySelector('.bt');
+// let comandButton = document.querySelector('.cm');
+// let enterButton = document.querySelector('.ravno');
 let memory = 0;
 function ssum(a) {
   switch(a) {

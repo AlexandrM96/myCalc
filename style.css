@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-margin-top: 50px;
+margin-top: 40px;
 }
 
 .wrapper__main {
@@ -16,7 +16,7 @@ margin-top: 50px;
      color: white;
      width: 100%;
      padding-right: 20px;
-     font-size: 45px;
+     font-size: 50px;
      background-color: #272222;
  }
 
@@ -36,8 +36,8 @@ margin-top: 50px;
      background-color: #343134;
      color: white;
      width: 100px;
-     font-size: 20px;
-     padding: 30px;
+     font-size: 30px;
+     padding: 24px;
      margin: 5px;
      border-radius: 50%;
      transition-duration: 0.3s;
@@ -54,8 +54,8 @@ margin-top: 50px;
     background-color: #f09129;
     color: white;
     width: 100px;
-    font-size: 20px;
-    padding: 30px;
+    font-size: 40px;
+    padding: 20px;
     margin: 5px;
     border-radius: 50%;
     transition-duration: 0.3s;
@@ -71,8 +71,8 @@ margin-top: 50px;
     background-color: #a7a7a7;
     color: black;
     width: 100px;
-     font-size: 20px;
-     padding: 30px;
+     font-size: 40px;
+     padding: 20px;
      margin: 5px;
      border-radius: 50%;
      transition-duration: 0.3s;
@@ -85,11 +85,11 @@ margin-top: 50px;
 }
 
 .cm__three {
-    background-color: #cca934;
+    background-color: #d9ab12;
     color: black;
     width: 100px;
-     font-size: 20px;
-     padding: 30px;
+     font-size: 30px;
+     padding: 25px;
      margin: 5px;
      border-radius: 50%;
      transition-duration: 0.3s;
@@ -102,7 +102,7 @@ margin-top: 50px;
 }
 
  .enter {
-    background-color: #af0f0f;
+    background-color: #ff940f;
     color: white;
     font-size: 40px;
     margin: 5px;
@@ -111,8 +111,8 @@ margin-top: 50px;
     transition-duration: 0.3s;
   }
   .enter:hover {
-    box-shadow: 0px 0px 100px rgb(26, 22, 235);
-    outline: 1px solid rgb(9, 24, 223);
+    box-shadow: 0px 0px 100px rgb(206, 1, 53);
+    outline: 1px solid rgb(206, 1, 53);
     cursor: pointer;
     transform: scale(1.1);     
 }
